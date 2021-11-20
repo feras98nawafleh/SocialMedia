@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #f3f3f3;
+   font-family: sans-serif;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 500px;
+  display: flex;
+  box-shadow: -10px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .left{
+  width: 40%;
+  background: linear-gradient(to right,#a09611,#eff306);
+  padding: 30px 25px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;   
+  text-align: center;
+  color: #fff;
+}
+
+.wrapper .left img{
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.wrapper .left h4{
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+   
+}
+
+.wrapper .left p{
+  font-size: 15px;
+
+}
+
+.wrapper .right{
+  width: 65%;
+  background: #fff;
+  padding: 30px 25px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.social_media ul{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-left: 8%;
+}
+
+.social_media ul img{
+  width: 250px;
+  height: 250px;
+  margin-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 45px;
+}
+
